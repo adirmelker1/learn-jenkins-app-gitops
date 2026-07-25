@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: adir395/learn-jenkins-app:latest
+          image: adir395/learn-jenkins-app:26
           ports:
             - containerPort: 80
 ---
