@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: adir395/learn-jenkins-app
+  tag: "latest"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 3000
